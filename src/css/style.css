@@ -73,7 +73,7 @@ html {
   border-radius: 50px;
 
   font-size: 16px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-align: center;
 
   padding: 12px 0;
