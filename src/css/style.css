@@ -15,7 +15,7 @@
 body,
 html {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#c21400, #7b0015);
+  background: linear-gradient(#c21400, #7b0015);
 }
 
 .container {
@@ -56,7 +56,7 @@ html {
 
 .tree-container .instagram-user {
   margin-top: 17px;
-  color: var(--branco);
+  color: #fff;
 }
 
 .tree-container .links-container {
@@ -67,7 +67,7 @@ html {
 
 .links-container .link {
   margin-top: 16px;
-  width: 490px;
+  width: 470px;
   color: #fff;
   border: 2px solid var(--branco);
   border-radius: 50px;
