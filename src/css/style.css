@@ -18,11 +18,11 @@ html {
   background: linear-gradient(#c21400, #7b0015);
 }
 .wrapper {
-  color: #000;
+  color: #fff;
   display: inline-flex;
 }
 .wrapper .icon {
-  color: #000;
+  color: #fff;
   margin: 0 20px;
   text-align: center;
   cursor: pointer;
@@ -35,7 +35,7 @@ html {
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrapper .icon span {
-  color: #000;
+  color: #fff;
   display: block;
   height: 60px;
   width: 60px;
@@ -98,9 +98,9 @@ html {
 }
 .wrapper .icon span {
   display: block;
-  height: 60px;
-  width: 60px;
-  background: #fff;
+  height: 55px;
+  width: 55px;
+  background: linear-gradient(#c21400, #7b0015);
   border-radius: 50%;
   position: relative;
   z-index: 2;
@@ -152,27 +152,27 @@ html {
 .wrapper .facebook:hover span,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip:before {
-  background: #d3d3d3;
+  background: #c21400;
 }
 .wrapper .twitter:hover span,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip:before {
-  background: #33f269;
+  background: #c21400;
 }
 .wrapper .instagram:hover span,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip:before {
-  background: #e1306c;
+  background: #c21400;
 }
 .wrapper .github:hover span,
 .wrapper .github:hover .tooltip,
 .wrapper .github:hover .tooltip:before {
-  background: #333;
+  background: #c21400;
 }
 .wrapper .youtube:hover span,
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip:before {
-  background: #de463b;
+  background: #c21400;
 }
 
 .container {
