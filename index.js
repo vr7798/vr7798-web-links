@@ -9,6 +9,6 @@ app.get("/", function (rep, res) {
 
 app.use(express.static("src"));
 
-app.listen(process.env.PORT, () => {
+app.listen(PORT, () => {
   console.log("SERVIDOR RODANDO! NA PORTA", PORT);
 });

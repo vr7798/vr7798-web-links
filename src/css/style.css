@@ -17,10 +17,30 @@ html {
   font-family: "Inter", sans-serif;
   background: linear-gradient(#c21400, #7b0015);
 }
+header {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+  margin-top: 15px;
+}
+
 .wrapper {
   color: #fff;
   display: inline-flex;
 }
+.share-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(240, 240, 240);
+}
+.share-button svg {
+  margin-left: 12px;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+
 .wrapper .icon {
   color: #fff;
   margin: 0 20px;
