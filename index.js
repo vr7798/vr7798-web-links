@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.get("/", function (rep, res) {
-  res.sendFile(path.join(__dirname + "./src"));
+  res.sendFile(path.join(__dirname + "/src"));
 });
 
 app.use(express.static("src"));
